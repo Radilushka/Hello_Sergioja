@@ -9,19 +9,20 @@ public class MeatCow extends Animal {
         this.meatWeight = meatWeight;
     }
 
+    public int getMeatWeight() {
+        return meatWeight;
+    }
+
+    public void setMeatWeight(int meatWeight) {
+        this.meatWeight = meatWeight;
+    }
+
+    //FIXME Ошибка, это должно быть в Animal, так как поля только там
     public int getWeight(){
         return weight;
     }
     public String getName(){
         return name;
     }
-
-
-
-
-
-
-
-
 
 }

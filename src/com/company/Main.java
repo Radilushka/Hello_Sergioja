@@ -15,12 +15,6 @@ public class Main {
         else
             System.out.println("продолжать откармливать" + m1.getName());
 
-
-
         m2.whatToDo();
-
-
-
-
     }
 }
