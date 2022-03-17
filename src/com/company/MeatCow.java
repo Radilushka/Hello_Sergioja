@@ -18,11 +18,7 @@ public class MeatCow extends Animal {
     }
 
     //FIXME Ошибка, это должно быть в Animal, так как поля только там
-    public int getWeight(){
-        return weight;
-    }
-    public String getName(){
-        return name;
-    }
+
+
 
 }

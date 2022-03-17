@@ -11,9 +11,9 @@ public class MilkCow extends Animal {
 
     public void whatToDo() {
         if (milkLiter < 15) // FIXME add {}
-            System.out.println("пустить на мясо " + name); //FIXME use getName
+            System.out.println("пустить на мясо " + getName()); //FIXME use getName
         else // FIXME add {}
-            System.out.println("продолжать доить " + name);
+            System.out.println("продолжать доить " + getName());
     }
 
 
