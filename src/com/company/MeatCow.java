@@ -17,8 +17,4 @@ public class MeatCow extends Animal {
         this.meatWeight = meatWeight;
     }
 
-    //FIXME Ошибка, это должно быть в Animal, так как поля только там
-
-
-
 }

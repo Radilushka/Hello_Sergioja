@@ -9,9 +9,11 @@ public class MilkCow extends Animal {
         this.milkLiter = milkLiter;
     }
 
+    // FIXME add getter and setter for milkLiter
+
     public void whatToDo() {
         if (milkLiter < 15) // FIXME add {}
-            System.out.println("пустить на мясо " + getName()); //FIXME use getName
+            System.out.println("пустить на мясо " + getName());
         else // FIXME add {}
             System.out.println("продолжать доить " + getName());
     }
